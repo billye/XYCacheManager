@@ -45,6 +45,7 @@ YY_EXTERN_C_BEGIN
 #define YYAssertMainThread() NSAssert([NSThread isMainThread], @"This method must be called on the main thread")
 #define YYCAssertMainThread() NSCAssert([NSThread isMainThread], @"This method must be called on the main thread")
 
+#define USER_DEFAULT [NSUserDefaults standardUserDefaults] //user Default
 
 /**
  Add this macro before each category implementation, so we don't have to use
